@@ -478,37 +478,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "embassy-nrf52833-examples"
-version = "0.1.0"
-dependencies = [
- "cortex-m",
- "cortex-m-rt",
- "defmt",
- "defmt-rtt",
- "embassy-executor",
- "embassy-futures",
- "embassy-lora",
- "embassy-net",
- "embassy-nrf",
- "embassy-sync 0.2.0",
- "embassy-time",
- "embassy-usb",
- "embedded-io",
- "embedded-storage",
- "futures",
- "lora-phy",
- "lorawan",
- "lorawan-device",
- "nrf-softdevice",
- "nrf-softdevice-s140",
- "panic-probe",
- "rand",
- "serde",
- "static_cell",
- "usbd-hid",
-]
-
-[[package]]
 name = "embassy-sync"
 version = "0.2.0"
 dependencies = [
@@ -876,6 +845,37 @@ name = "memchr"
 version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d"
+
+[[package]]
+name = "microbit-v2-moisture-sensor"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "defmt",
+ "defmt-rtt",
+ "embassy-executor",
+ "embassy-futures",
+ "embassy-lora",
+ "embassy-net",
+ "embassy-nrf",
+ "embassy-sync 0.2.0",
+ "embassy-time",
+ "embassy-usb",
+ "embedded-io",
+ "embedded-storage",
+ "futures",
+ "lora-phy",
+ "lorawan",
+ "lorawan-device",
+ "nrf-softdevice",
+ "nrf-softdevice-s140",
+ "panic-probe",
+ "rand",
+ "serde",
+ "static_cell",
+ "usbd-hid",
+]
 
 [[package]]
 name = "nb"
@@ -1273,9 +1273,9 @@ checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
 
 [[package]]
 name = "static_cell"
-version = "1.0.0"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e4c37c250d21f53fa7165e76e5401d7e6539c211a8d2cf449e3962956a5cc2ce"
+checksum = "ed6a851e9c00ce152b2bad24e8545a6db0b8646988267a6ea966d95c6932e8a2"
 dependencies = [
  "atomic-polyfill 1.0.2",
 ]
