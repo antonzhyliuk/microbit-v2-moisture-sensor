@@ -1,0 +1,6 @@
+[submodule "embedded-sensor/nrf-softdevice"]
+	path = embedded-sensor/nrf-softdevice
+	url = git@github.com:embassy-rs/nrf-softdevice.git
+[submodule "embedded-sensor/embassy"]
+	path = embedded-sensor/embassy
+	url = git@github.com:embassy-rs/embassy.git
